@@ -1,2 +1,11 @@
 @import url(reset.css);
-    
+@import url(header.css);
+:root {
+    --vermelho: #e50914;
+    --vermelho-escuro: #b81d24;
+    --preto: #221f1f;
+    --branco: #f5f5f1;
+}
+body{
+    background-color: var(--preto);
+}
