@@ -1,8 +1,27 @@
-.cabecalho__menu-filme{
+.cabecalho__menu-hamburguer{
     width: 24px;
     height: 24px;
-    background-image: url(../img/Menu.svg);
+    background-image: url(../img/Menu.png);
     background-repeat: no repeat;
     background-size: cover;
-    display: inline block
+    display: inline block;
+}
+.cabecalho{
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}   
+.caixa{
+    display: flex;
+    align-items: center;
+}
+.caixa__imagem{
+    padding: 1em
+}
+.lista-menu{
+    display: none;
+}
+.caixa__botao:checked~.lista-menu{
+    display: block;
 }
