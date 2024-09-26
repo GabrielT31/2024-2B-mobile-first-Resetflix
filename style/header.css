@@ -1,16 +1,7 @@
-:root {
-    --vermelho: #e50914;
-    --vermelho-escuro: #b81d24;
-    --preto: #221f1f;
-    --branco: #f5f5f1;
-    --texto-corpo: "Sedan SC", serif;
-    --texto-titulo: "Poetsen One", sans-serif;
-}
-
 .cabecalho__menu-hamburguer {
-    width: 30px;
-    height: 30px;
-    background-image: url(../img/Menu.png);
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/Menu-hamburguer.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;
@@ -30,7 +21,7 @@
 }
 
 .caixa__imagem {
-    padding: 1em
+    padding: 1em;
 }
 
 .lista-menu {
@@ -51,22 +42,48 @@
 }
 
 .lista-menu__titulo {
-    color: var(--vermelho);
+    color: var(--laranja);
     font-weight: bold;
 }
 
 .lista-menu__link {
-    color: var(--vermelho);
+    color: var(--azul);
     text-decoration: none;
     text-transform: uppercase;
 }
 
-body {
-    background-color: var(--vermelho);
-            font-family: var(--texto-titulo);
-            font-size: 16px;
-            font-weight: 400; 
-}
-.caixa__botao{
+.caixa__botao {
     display: none;
+}
+
+.caixa__titulo {
+    display: none;
+}
+.opcoes{
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .caixa__titulo {
+        display: block;
+        font-size: var(--fonte-principal);
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+.caixa__titulo__negrito{
+    font-weight: 700;
+    color: var(--laranja);
+}
+.opcoes{
+    display: flex;
+}
+.opcoes__item{
+    padding: 0 1em;
+    text-transform: uppercase;
+}
+.opcoes__link{
+    text-decoration: none;
+    color: var(--preto);
+}
 }
