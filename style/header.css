@@ -75,7 +75,7 @@
     }
     .caixa__titulo--negrito{
         font-weight: 700;
-        color: var(--azul);
+        color: var(--vermelho);
     }
     .opcoes{
         display: flex;

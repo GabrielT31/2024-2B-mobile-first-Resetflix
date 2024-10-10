@@ -8,6 +8,9 @@
 @import url("rodape.css");
 
 :root {
+    --vermelho: #a2010b;
+    --amarelo: #ffa400;
+    --roxo: #3c096c;
     --cor-fundo: #EBECEE;
     --branco: #ffffff;
     --laranja: #EB9B00;
@@ -17,6 +20,7 @@
     --fonte-principal : "Poppins", sans-serif;
     --fonte-secundaria: "Josefin Sans", sans-serif;
 
+
 }
 
 body {
@@ -24,4 +28,11 @@ body {
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
+}
+.imagem_logo{
+    width: 20%;
+    border-radius: 10em;
+}
+.imagem_luiz{
+    width: 30%;
 }
